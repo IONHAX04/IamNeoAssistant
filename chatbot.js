@@ -1209,7 +1209,7 @@ function sendoutput() {
                             else if (user.length == j) {
                                 reply = fire[i + 1];
                                 //   print("you may be missed some of the characters.Here are some of the characters you could add.  \" "+reply+"  \"");
-                                print("In the given program line you missed some character so replace the program line with the character given bellow and try again");
+                                print("In the given program line you missed some character so replace the program line with the character given below and try again");
                                 print("The Character That You Missed   " + reply + " ")
                                 flage = 1;
                                 break
@@ -1219,7 +1219,7 @@ function sendoutput() {
                     else if (fire[i] == "null") {
                         reply = fire[i];
                         // print("you may be missed some of the characters.Here are some of the characters you could add.  \" "+reply+"  \"");
-                        print("In the given program line you missed some character so replace the program line with the character given bellow and try again   ");
+                        print("In the given program line you missed some character so replace the program line with the character given below and try again   ");
 
                         setTimeout(() => {
                             print("The Character That You Missed   " + reply + " ")
@@ -1234,7 +1234,7 @@ function sendoutput() {
                     else {
                         reply = fire[i];
                         // print("you may be missed some of the characters.Here are some of the characters you could add.  \" "+reply+"  \"");
-                        print("In the given program line you missed some character so replace the program line with the character given bellow and try again   ");
+                        print("In the given program line you missed some character so replace the program line with the character given below and try again   ");
                         setTimeout(() => {
                             print("The Character That You Missed   " + reply + " ")
                         }, 7500);
@@ -1267,7 +1267,7 @@ function sendoutput() {
                         else if (fire[i] == "null") {
                             reply = fire[i];
                             //print("you may be missed some of the characters.Here are some of the characters you could add.  \" "+reply+"   \"");
-                            print("In the given program line you missed some character so replace the program line with the character given bellow and try again   ");
+                            print("In the given program line you missed some character so replace the program line with the character given below and try again   ");
                             setTimeout(() => {
                                 print("The Character That You Missed   " + reply + " ")
                             }, 7500);
@@ -1279,7 +1279,7 @@ function sendoutput() {
                         else {
                             reply = fire[i];
                             // print("you may be missed some of the characters.Here are some of the characters you could add.  \" "+reply+"  \"");
-                            print("In the given program line you missed some character so replace the program line with the character given bellow and try again   ");
+                            print("In the given program line you missed some character so replace the program line with the character given below and try again   ");
                             setTimeout(() => {
                                 print("The Character That You Missed   " + reply + " ")
                             }, 7500);
@@ -1293,7 +1293,7 @@ function sendoutput() {
                 catch (err) {
                     reply = fire[i];
                     // print("you may be missed some of the characters.Here are some of the characters you could add.  \" "+reply+"  \"");
-                    print("In the given program line you missed some character so replace the program line with the character given bellow and try again   ");
+                    print("In the given program line you missed some character so replace the program line with the character given below and try again   ");
                     setTimeout(() => {
                         print("The Character That You Missed   " + reply + " ")
                     }, 7500);
